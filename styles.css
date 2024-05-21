@@ -1,0 +1,44 @@
+body>section>div {
+    color: hsl(234, 12%, 34%);
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 15px 20px #8f8f8f;
+}
+
+.red {
+    border-top: 4px solid hsl(0, 78%, 62%)
+}
+.cyan {
+    border-top: 4px solid hsl(180, 62%, 55%)
+}
+.orange {
+    border-top: 4px solid hsl(34, 97%, 64%)
+}
+.blue {
+    border-top: 4px solid hsl(212, 86%, 64%)
+}
+
+p {
+    color: hsl(234, 12%, 34%)
+}
+
+/* ## Colors
+
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%) */
