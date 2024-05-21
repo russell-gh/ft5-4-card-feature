@@ -19,7 +19,7 @@ color: hsl(234, 12%, 34%);
 .card {
     border-radius: 8px;
     box-shadow: 0 15px 20px #8f8f8f;
-    width: 350px;
+    width: 380px;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -67,9 +67,10 @@ header p {
 }
 
 section h3 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 0;
     line-height: 0.7;
+    font-weight: 600;
 
 }
 
@@ -78,20 +79,21 @@ section p {
 }
 
 img {
-    width: 60px;
+    width: 80px;
     align-self: flex-end;
 }
-/* ## Colors
 
-### Primary
-
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
-
-### Neutral
-
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%) */
+@media (min-width: 1440px) {
+    .flex-diamond-container {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inner-container {
+        display: flex;;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 3em
+    }
+}
