@@ -1,19 +1,18 @@
 /* Cards */
 
 .card {
-  max-width: 311px;
-  height: 222px;
+  max-width: 285px;
   border-radius: 8px;
   box-shadow: 0px 10px 20px 10px #8f8f8f3d;
   border-top: 4px solid;
   margin-left: 10px;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 35px;
+  margin-bottom: 19px;
 }
 
-.card img {
+.img {
   display: flex;
-  align-self: flex-end; BUG
+  justify-content: flex-end;
 }
 
 .team-builder {
@@ -49,10 +48,9 @@ body {
   font-size: 1.5rem;
 }
 
-
 /* Font isn't working again. Why? */
 .body {
-  font-family: Poppins, sans-serif; 
+  font-family: Poppins, sans-serif;
 }
 
 .preheader {
@@ -63,12 +61,11 @@ body {
   margin-top: 75px;
 }
 
-header, main {
-    max-width: 350px;
-    margin: auto;
+header,
+main {
+  max-width: 350px;
+  margin: auto;
 }
-
-
 
 h1 {
   color: hsl(234, 12%, 34%);
@@ -90,5 +87,23 @@ html {
 }
 
 header {
-    text-align: center;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+  }
+  main {
+    max-width: unset;
+  }
+}
+
+.cards.container {
+  border: solid, black;
+  justify-content: center;
+  align-items: center;
+}
+.innercontainer {
+  border: solid, orange, 5px;
 }
