@@ -1,23 +1,40 @@
 .team-builder {
   border-top: solid;
   border-color: hsl(0, 78%, 62%);
-  width: 300px;
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 20px #8f8f8f;
 }
 
 .calculator {
   border-top: solid;
   border-color: hsl(212, 86%, 64%);
-  width: 300px;
+  width: 350px;
+  height: 250px;
+
+  border-radius: 8px;
+  box-shadow: 0px 15px 20px #8f8f8f;
 }
 
 .karma {
   border-top: solid;
   border-color: hsl(34, 97%, 64%);
-  width: 300px;
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 20px #8f8f8f;
 }
 
 .supervisor {
   border-top: solid;
   border-color: hsl(180, 62%, 55%);
-  width: 300px;
+  width: 350px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0px 15px 20px #8f8f8f;
+}
+
+body {
+  background-color: hsl(0, 0%, 98%);
 }
