@@ -4,8 +4,16 @@
   max-width: 311px;
   height: 222px;
   border-radius: 8px;
-  box-shadow: 0px 15px 20px #8f8f8f;
+  box-shadow: 0px 10px 20px 10px #8f8f8f3d;
   border-top: 4px solid;
+  margin-left: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card img {
+  display: flex;
+  align-self: flex-end; BUG
 }
 
 .team-builder {
@@ -41,13 +49,18 @@ body {
   font-size: 1.5rem;
 }
 
+
+/* Font isn't working again. Why? */
 .body {
-  font-family: Poppins, sans-serif;
+  font-family: Poppins, sans-serif; 
 }
 
 .preheader {
   color: hsl(234, 12%, 34%);
   font-size: 2.4rem;
+  /* text-align: center; */
+  margin-bottom: -10px;
+  margin-top: 75px;
 }
 
 h1 {
