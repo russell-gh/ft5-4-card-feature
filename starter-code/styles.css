@@ -38,3 +38,14 @@
 body {
   background-color: hsl(0, 0%, 98%);
 }
+
+.heading {
+  border: solid;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+/* html {
+  font-size: 62.25%;
+} */
