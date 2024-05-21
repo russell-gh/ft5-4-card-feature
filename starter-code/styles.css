@@ -1,0 +1,35 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+}
+h1 {
+  color: hsl(234, 12%, 34%);
+}
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+.arrange {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.card {
+  border: solid 1px lightgrey;
+  border-radius: 6px;
+}
+
+.card.supervisor {
+  border-top: solid 3px hsl(180, 62%, 55%);
+}
+
+.card.team-builder {
+  border-top: solid 3px hsl(0, 78%, 62%);
+}
+
+.card.karma {
+  border-top: solid 3px hsl(34, 97%, 64%);
+}
+
+.card.calculator {
+  border-top: solid 3px hsl(212, 86%, 64%);
+}
