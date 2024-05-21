@@ -1,4 +1,8 @@
-body>section>div {
+:root {
+    font-size: 62.5%
+}
+
+body>header>div {
     color: hsl(234, 12%, 34%);
 }
 
@@ -9,17 +13,22 @@ body {
 .card {
     border-radius: 8px;
     box-shadow: 0 15px 20px #8f8f8f;
+    height: 330px;
+    width: 500px
 }
 
 .red {
     border-top: 4px solid hsl(0, 78%, 62%)
 }
+
 .cyan {
     border-top: 4px solid hsl(180, 62%, 55%)
 }
+
 .orange {
     border-top: 4px solid hsl(34, 97%, 64%)
 }
+
 .blue {
     border-top: 4px solid hsl(212, 86%, 64%)
 }
@@ -28,6 +37,25 @@ p {
     color: hsl(234, 12%, 34%)
 }
 
+header h1, h2 {
+    font-size: 4rem;
+}
+
+header p {
+    font-size: 2.2rem
+}
+
+section h3 {
+    font-size: 2.4rem;
+}
+
+section p {
+    font-size: 1.8rem
+}
+
+img {
+    width: 40px;
+}
 /* ## Colors
 
 ### Primary
