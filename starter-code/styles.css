@@ -69,3 +69,12 @@ header {
   font-size: 1.7rem;
   font-weight: 200;
 }
+
+@media (min-width: 1200px) {
+  main {
+    max-width: unset;
+  }
+  .container {
+    display: flex;
+  }
+}
