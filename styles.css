@@ -2,10 +2,6 @@
     font-size: 62.5%
 }
 
-body>header>div {
-    color: hsl(234, 12%, 34%);
-}
-
 body {
     background-color: hsl(0, 0%, 98%);
     font-family: Poppins, sans-serif;
@@ -16,23 +12,26 @@ body {
     display: flex;
     flex-direction: column;
 align-items: center    ;
+color: hsl(234, 12%, 34%);
+
 }
 
 .card {
     border-radius: 8px;
     box-shadow: 0 15px 20px #8f8f8f;
     width: 350px;
-    height: 35vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1em 2em;
+    padding: 3em 2em;
     margin-bottom: 3em;
 }
 
 header {
     max-width: 80vw;
 text-align: center;
+margin: 4em 0;
 }
 .red {
     border-top: 4px solid hsl(0, 78%, 62%)
@@ -79,7 +78,8 @@ section p {
 }
 
 img {
-    width: 40px;
+    width: 60px;
+    align-self: flex-end;
 }
 /* ## Colors
 
