@@ -84,7 +84,8 @@ h2 {
 
 .cards > p {
   margin-bottom: 45px;
-  font-size: 13px;
+  font-size: 12px;
+  line-height: 20px;
 }
 
 .card-supervisor {
@@ -113,5 +114,26 @@ h2 {
 /* ************************
           media query
 *************************** */
+@media (min-width: 1200px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  header {
+    max-width: 500px;
+  }
+
+  header .abovetitle,
+  h1 {
+    font-size: 35px;
+  }
+
+  .cards p,
+  header p {
+    font-size: 15px;
+  }
+}
 
 /* ************************ end */
