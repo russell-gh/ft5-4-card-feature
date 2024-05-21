@@ -1,15 +1,21 @@
 body {
   background-color: hsl(0, 0%, 98%);
+  font-family: Poppins, sans-serif;
 }
 header {
   width: 311px;
   height: 161px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
 }
+
 header p {
   font-size: 15px;
 }
 p.top-text {
   font-size: 24px;
+  line-height: 0px;
 }
 
 h1 {
@@ -35,14 +41,23 @@ p {
   box-shadow: 0px 15px 20px darkgrey;
   height: 222px;
   width: 311px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 15px;
 }
 
 .card p {
   font-size: 13px;
+  margin: 0;
+  line-height: 0;
 }
 .card img {
   height: 57px;
   width: 57px;
+  align-self: flex-end;
+  margin-top: 80px;
 }
 
 .card.supervisor {
